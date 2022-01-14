@@ -1,1 +1,1 @@
-# w-apartment-html
+# Sass starter template
