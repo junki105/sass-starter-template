@@ -1,1 +1,1 @@
-# Sass starter template
+# Takara-ss html code
