@@ -1,1 +1,1 @@
-# Takara-ss html code
+# Yokohama theme html code

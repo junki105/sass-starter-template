@@ -517,6 +517,18 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: KozGoPr6N-Bold;
+  src: url("/assets/fonts/KozGoPr6N-Bold.otf");
+}
+@font-face {
+  font-family: KozGoPr6N-Medium;
+  src: url("/assets/fonts/KozGoPr6N-Medium.otf");
+}
+@font-face {
+  font-family: KozGoPr6N-Regular;
+  src: url("/assets/fonts/KozGoPr6N-Regular.otf");
+}
 /**
  * Basic typography style for copy text
  */
@@ -577,6 +589,51 @@ body {
   width: 1px;
 }
 
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pc-only {
+  display: block;
+}
+
+.sp-only {
+  display: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+.main {
+  position: relative;
+  margin-top: 80px;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 0.0714285714vw;
+  }
+  .main {
+    margin-top: 80rem;
+  }
+}
+@media (max-width: 640px) {
+  html {
+    font-size: 0.15625vw;
+  }
+  .container {
+    padding: 0 30rem !important;
+  }
+  .pc-only {
+    display: none;
+  }
+  .sp-only {
+    display: block;
+  }
+}
 .sd {
   font-size: 12px;
 }

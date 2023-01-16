@@ -31,12 +31,15 @@
   }
 }
 
-
-
-@mixin for-tablet{
-  @media (max-width: $xl) { @content; }
+@mixin lg {
+  @media (max-width: $lg) { @content; }
 }
-@mixin for-sp{
+
+@mixin md {
+  @media (max-width: $md) { @content; }
+}
+
+@mixin sm {
   @media (max-width: $sm) { @content; }
 }
 
@@ -45,4 +48,3 @@
   -ms-transform: $property;
   transform: $property;
 }
-
