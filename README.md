@@ -1,1 +1,1 @@
-# Yokohama theme html code
+# HTML CODING STARTER TEMPLATE
